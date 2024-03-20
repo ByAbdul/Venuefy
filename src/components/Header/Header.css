@@ -1,0 +1,19 @@
+header {
+    min-height: 100vh;
+    background: url('../../assets/Header_Bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header .intro {
+    position: relative;
+    height: 100vh;
+}
+ 
+header .cta {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    max-width: 423px;
+    min-height: 500px;
+}

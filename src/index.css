@@ -1,0 +1,25 @@
+:root {
+  --cream-color: #F8E097;
+  --yellow-color: #FFB703;
+  --dark-color: #0A142F;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Alegreya SC', serif;
+}
+
+.intro{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
