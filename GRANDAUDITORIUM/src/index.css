@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rockwell:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
+:root{
+    --font-bubblegum-sans: "Bubblegum Sans";
+    --font-rockwell: "Rockwell";
+    --font-alegreya-sc: "Alegreya SC";
+    --font-architects-daughter: "Architects Daughter";
+    --font-caveat: "Caveat";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif
+   
+}
+body{
+    background:linear-gradient(90deg,#fff3c9,#fff4f0);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.Container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.btn{
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn img{
+    Width: 20px;
+    margin-left: 10px;
+    
+}
+
+.btn.dark-btn{
+    background: #e7b215;
+    color:#fff;
+}
+
+@media (max-width :1200px){
+    .Container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+}

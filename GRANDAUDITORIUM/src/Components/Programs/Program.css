@@ -1,0 +1,255 @@
+.parking-icon {
+  position: absolute;
+  width: calc(100% - 22px);
+  top: 12px;
+  right: 11px;
+  left: 11px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 57px;
+  object-fit: cover;
+}
+.icons1 {
+  width: 79px;
+  height: 82px;
+  position: relative;
+  border-radius:74px;
+  background-color: wheat;
+  box-shadow: 10px 10px 24px -4px #eae4cd;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+.div,
+.parking {
+  position: relative;
+  display: inline-block;
+  min-width: 71px;
+}
+.div {
+  line-height: 105%;
+  white-space: nowrap;
+}
+.parking {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 120%;
+  font-family: "Noto Serif";
+}
+.parent {
+  flex: 1;
+  flex-direction: column;
+}
+.frame-wrapper,
+.icons-parent,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 4px;
+}
+.icons-parent {
+  width: 99px;
+  flex-direction: column;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+  gap: 10px;
+  align-items: center;
+  justify-content:center ;
+}
+.waiting-room-icon {
+  height: 57px;
+  width: 57px;
+  position: relative;
+  object-fit: cover;
+}
+.amenities2,
+.icons2 {
+  display: flex;
+  flex-direction: row;
+}
+.icons2 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: #ee7957;
+  height: 77px;
+  width: 77px;
+  border-radius: 74px;
+  box-shadow: 10px 10px 24px -4px #ee7957;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.amenities2 {
+  align-items: center;
+  justify-content: center;
+  padding: 10px 29px;
+}
+.separator {
+  position: relative;
+  line-height: 105%;
+  display: inline-block;
+  min-width: 71px;
+}
+.happy-wedding {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 120%;
+  font-family: "Noto Serif";
+}
+.amenities2-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.amenities-container {
+  width: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.5px 0 0;
+  box-sizing: border-box;
+}
+.dining-room-icon {
+  height: 57px;
+  width: 57px;
+  position: relative;
+  object-fit: cover;
+}
+.amenities3,
+.icons3 {
+  display: flex;
+  flex-direction: row;
+}
+.icons3 {
+  height: 77px;
+  width: 77px;
+  border-radius: 74px;
+  background-color: #ffb703;
+  box-shadow: 10px 10px 24px -4px #ffb703;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items:center;
+  justify-content: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+.amenities3 {
+  align-items: center;
+  justify-content: center;
+  padding:10px 26px;
+}
+.div1 {
+  position: relative;
+  line-height: 105%;
+  display: inline-block;
+  min-width: 71px;
+}
+.dining-capacity {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 120%;
+  font-family:  "Noto Serif";
+}
+.amenities3-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.amenities-container1{
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding:2.5px 0 0;
+  box-sizing: border-box;
+}
+.facili {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.5px 102.5px;
+  gap:20px;
+  max-width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  color: #7c7575;
+  font-family:"STHupo";
+}
+.icons {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icons {
+  width:100%;
+  display: flex;
+  background-color:#fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding:18px 0 11px;
+  gap: 5px;
+  letter-spacing: normal;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .facili {
+    padding-left: 51px;
+    padding-right: 51px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .div,
+  .div1,
+  .separator {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .facili {
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .separator {
+    padding: 50px;
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
